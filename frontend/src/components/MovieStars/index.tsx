@@ -5,13 +5,14 @@ import './styles.css'
 
 function getFills(score: number) {
 
-  type Props : {
+  type Props = {
     score: number;
   }
 
-  type StarProps: {
+  type StarProps = {
     fill: number;
   }
+  
   const fills = [0, 0, 0, 0, 0];
 
   const integerPart = Math.floor(score);
