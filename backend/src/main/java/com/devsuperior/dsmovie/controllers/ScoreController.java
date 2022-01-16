@@ -13,6 +13,7 @@ public class ScoreController {
 	@Autowired
 	private ScoreService service;
 	
+	// just ignore this
 	@PutMapping
 	public MovieDTO saveScore(@RequestBody ScoreDTO dto) {
 		return service.saveScore(dto);
